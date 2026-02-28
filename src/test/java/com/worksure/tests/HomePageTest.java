@@ -19,5 +19,6 @@ public class HomePageTest extends BaseTest {
         Assertions.assertFalse(title.isEmpty());
 
         System.out.println("Page opened successfully. Title: " + title);
+        System.out.println("Smoke test executed successfully");
     }
 }
